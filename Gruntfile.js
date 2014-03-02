@@ -27,7 +27,8 @@ module.exports = function(grunt) {
                     cssprefix: '.ui-icon-',
                     datasvgcss: 'jqm-icon-pack-fa.scss',
                     previewhtml: 'index.html',
-                    template: "source/css_template.hbs"
+                    template: "source/css_template.hbs",
+                    previewTemplate: "source/html_template.hbs"
                 }
             }
         },

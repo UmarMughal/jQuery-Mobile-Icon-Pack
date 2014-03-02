@@ -1,0 +1,14 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>jQuery Mobile Icon Pack</title>
+  </head>
+  <body>
+    <h1>jQuery Mobile Icon Pack</h1>
+    {{#each icons}}
+      {{#with this}}
+      <pre><code>{{prefix}}{{name}}:</code></pre><div class="{{prefixClass}}{{name}}" style="width: {{width}}px; height: {{height}}px;" ></div><hr/>
+      {{/with}}
+    {{/each}}
+</body>
+</html>
